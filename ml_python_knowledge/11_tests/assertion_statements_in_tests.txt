@@ -1,0 +1,17 @@
+assert a == b 
+asserts that both values equal
+
+assert a != b
+asserts that two values unequal
+
+assert a
+asserts that a is True
+
+assert not a
+asserts that a is False
+
+assert element in list
+asserts that element is in list
+
+assert element not in list
+asserts that element not in list
