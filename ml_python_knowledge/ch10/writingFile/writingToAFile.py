@@ -1,0 +1,17 @@
+## writing text to a file, 
+# enables that the output will be available even after a program is done.
+
+## Writing Multiple lines
+
+# write_text() method 
+# 1. will create a file if path points to a nonexistant file.
+# 2. closes the file after writing the string to avoid file corruption or missing data.
+
+# to write multiple lines
+# create a string with all of the content of the file,
+# then call write() with said string.
+
+# if you call write_text() on a path object and the file already exists, 
+# it will erase current content in the file and override it with new content to the file.
+
+# there is a way to check whether a file exists using pathlib.
